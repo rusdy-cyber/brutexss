@@ -1,18 +1,18 @@
-#BruteXSS
+# BruteXSS
 
 BruteXSS - Cross-Site Scripting BruteForcer
 
-Author: [Shawar Khan](https://www.shawarkhan.com)
+Author: [Shawar Khan, rusdi]
 
 **The BruteXSS project is sponsored and supported by [Netsparker Web Application Security Scanner](https://www.netsparker.com/?utm_source=github.com&utm_medium=referral&utm_content=brand+name&utm_campaign=generic+advert)**
 
-Disclaimer: I am not responsible for any damage done using this tool. This tool should only be used for educational purposes and for penetration testing.
+Disclaimer: Saya tidak bertanggung jawab atas segala kerusakan yang terjadi menggunakan alat ini. Alat ini hanya boleh digunakan untuk tujuan pendidikan dan untuk pengujian penetrasi.
 
 
-###Compatibility: 
+### Compatibility: 
 * Windows , Linux or any device running python 2.7
 
-###Requirements: 
+### Requirements: 
 
 * Python 2.7
 
@@ -21,17 +21,17 @@ Disclaimer: I am not responsible for any damage done using this tool. This tool 
 * Modules required: Colorama, Mechanize
 
 
-###Modules Required:
+### Modules Required:
 
 * Colorama:  https://pypi.python.org/pypi/colorama/
 
 * Mechanize: https://pypi.python.org/pypi/mechanize/
 
 
-###Description:
-**BruteXSS** is a very powerful and fast Cross-Site Scripting Brutforcer which is used for bruteforcing a parameters. The BruteXSS injects multiple payloads loaded from a specified wordlist and fires them at the specified parameters and scans if any of the parameter is vulnerable to XSS vulnerability. BruteXSS is very accurate at doing its task and there is no chance of false positive as the scanning is much powerful. BruteXSS supports POST and GET requests which makes it compatible with the modern web applications.
+### Description:
+**BruteXSS** adalah Brutforcer Skrip Lintas Situs yang sangat kuat dan cepat yang digunakan untuk memaksa parameter. BruteXSS menyuntikkan beberapa payload yang dimuat dari daftar kata tertentu dan mengaktifkannya pada parameter yang ditentukan dan memindai apakah ada parameter yang rentan terhadap kerentanan XSS. BruteXSS sangat akurat dalam melakukan tugasnya dan tidak ada kemungkinan kesalahan positif karena pemindaiannya sangat kuat. BruteXSS mendukung permintaan POST dan GET yang membuatnya kompatibel dengan aplikasi web modern.
 
-###Features:
+### Features:
 
 * XSS Bruteforcing
 
@@ -43,7 +43,7 @@ Disclaimer: I am not responsible for any damage done using this tool. This tool 
 
 * User-friendly UI
 
-###Usage(GET Method):
+### Usage(GET Method):
 
 ```
 COMMAND:  python brutexss.py
@@ -52,7 +52,7 @@ URL:      http://www.site.com/?parameter=value
 WORDLIST: wordlist.txt
 ```
 
-###Usage(POST method):
+### Usage(POST method):
 
 ```
 COMMAND:   python brutexss.py
@@ -62,7 +62,7 @@ POST DATA: parameter=value&parameter1=value1
 WORDLIST:  wordlist.txt
 ```
 
-###Output:
+### Output:
 
 ```
   ____             _        __  ______ ____  
