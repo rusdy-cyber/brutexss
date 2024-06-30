@@ -40,7 +40,7 @@ def brutexss():
 		os.system('cls')
 	else:
 		os.system('clear')
-	print banner
+	print (banner)
 	def again():
 		inp = raw_input("[?] [E]xit or launch [A]gain? (e/a)").lower()
 		if inp == 'a':
